@@ -8,7 +8,7 @@ module.exports = env => {
         mode: isDev ? 'development' : 'production',
         entry: './src/index.tsx',
         devServer: {
-            contentBase: path.join(__dirname, 'dist'),
+            contentBase: path.join(__dirname, 'docs'),
             compress: true,
             port: 8080,
             watchContentBase: true
@@ -50,7 +50,7 @@ module.exports = env => {
         },
         output: {
             filename: 'applet.js',
-            path: path.resolve(__dirname, 'dist'),
+            path: path.resolve(__dirname, 'docs'),
         }
     }
 }
