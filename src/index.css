@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+#applet * {
+    box-sizing: border-box;
+}
+#applet {
+    color: whitesmoke;
+    background-color: #1f1f22;
+    padding: 3rem;
+    border-radius: 4px;
+    width: 758px;
+    max-width: 95vw;
+}
+#applet, input, select, button {
+    margin: auto;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.5rem;
+}
+input, select, button {
+    margin: 0px;
+    color: black;
+    width: 100%;
+    border: 0px;
+    border-radius: 2px;
+    background-color: white;
+    padding: .2rem;
+}
+input:focus, input[type=submit]:hover, button:hover {
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+body {
+    margin: 0px;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(3,0,115);
+    background: linear-gradient(106deg, rgba(3,0,115,1) 0%, rgba(0,200,241,1) 100%);
+}
+.taCenter {
+    text-align: center;
+}
+h1 {
+    margin-top: 0px;
+}
+.mb0 {
+    margin-bottom: 0px;
+}
+a {
+    color: white;
+}
+.italicA > a {
+    font-style: italic;
+}
